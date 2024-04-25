@@ -1,0 +1,19 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "eth-execute",
+      "description": "A wrapper around Ethereum. Useful for when you need to interact with the Ethereum blockchain.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "input": {
+            "type": "string",
+            "description": "ENS name"
+          }
+        },
+        "required": ["input"]
+      }
+    }
+  }
+]
